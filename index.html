@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>귀뚜라미몰</title>
+
+    <meta property="og:type" content="Website"/>
+	<meta property="og:title" content="이해현, 2023 포트폴리오"/>
+	<meta property="og:url" content="http://hh5039.dothome.co.kr/kituramimall/index.html"/>
+	<meta property="og:description" content="kituramimall"/>
+	<meta property="og:image" content="https://i.ibb.co/w4h5HWp/3.png"/>
+	<meta property="og:site_name" content="이해현 | 20203 포트폴리오 | 귀뚜라미몰"/>
+
+    <link rel="shortcut icon" href="./assets/img/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.4.1/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./assets/css/layout.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.4.1/swiper-bundle.min.js"></script>
+    <script src="./assets/js/js.js" defer></script>
+</head>
+<body>
+    <div class="img-test"><img src="" alt=""></div>
+    <div class="skybanner">
+        <a href="">가치있는 모두를 위한 쇼핑몰 SHOPPING FOR ALL</a>
+        <button class="close">
+            <img src="./assets/img/ico_pop_x.png" alt="닫기버튼">
+        </button>
+    </div>
+    <div class="wraper">
+        <header class="header">
+            <div class="dimmed"></div>
+            <div class="header-inner">
+                <h1>
+                    <a href="">
+                        <span class="blind">귀뚜라미몰</span>
+                        <img src="./assets/img/logo.png" alt="로고">
+                    </a>
+                </h1>
+                <button class="open">
+                    <span class="blind">확장메뉴열기</span>
+                    <img src="./assets/img/ico_quick_menu01.png" alt>
+                </button>
+                <div class="util-area">
+                    <a href="" class="search">
+                        <img src="./assets/img/ico_search_search.png" alt="검색하기">
+                    </a>
+                    <a href="" class="shoppingcart">
+                        <img src="./assets/img/ico_goods_cart.png" alt="장바구니"><span>0</span>
+                    </a>
+                </div>
+            </div>
+            <nav class="gnb">
+                <ul>
+                    <li><a href="">전체상품</a></li>
+                    <li><a href="">베스트</a></li>
+                    <li><a href="">신제품<i class="new"></i></a></li>
+                    <li><a href="">타임세일</a></li>
+                    <li><a href="">이벤트</a></li>
+                    <li><a href="">고객후기</a></li>
+                    <li><a href="">고객센터<i class="center"></i></a></li>
+                </ul>
+            </nav>
+            <div class="bottom-menu-fix">
+                <ul>
+                    <li class="category"><a href="">카테고리</a></li>
+                    <li class="order"><a href="">주문배송</a></li>
+                    <li class="mypage"><a href="">마이페이지</a></li>
+                    <li class="product"><a href="">최근본상품</a></li>
+                    <li class="counseling"><a href="">상담</a></li>
+                </ul>
+            </div>
+            <section class="slide-menu-fix">
+                <h2 class="blind">바로가기 리스트</h2>
+                <div class="group-util">
+                    <div class="util-area">
+                        <a href="" class="login">로그인</a>
+                        <a href="" class="join">회원가입</a>
+                    </div>
+                    <button class="btn-close"><span class="blind">닫기버튼</span></button>
+                </div>
+                <div class="group-cate">
+                    <h3>카테고리</h3>
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="" class="nav">계절가전<i></i></a>
+                            <ul class="sub">
+                                <li><a href="">전체보기</a></li>
+                                <li><a href="">카본매트</a></li>
+                                <li><a href="">보일러</a></li>
+                                <li><a href="">에어컨</a></li>
+                                <li><a href="">부속품</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav">생활가전<i></i></a>
+                            <ul class="sub">
+                                <li><a href="">전체보기</a></li>
+                                <li><a href="">온수기</a></li>
+                                <li><a href="">건조기</a></li>
+                                <li><a href="">부속품</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav">캠핑<i></i></a>
+                            <ul class="sub">
+                                <li><a href="">전체보기</a></li>
+                                <li><a href="">침낭/매트</a></li>
+                                <li><a href="">캠핑용품</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav">푸드<i></i></a>
+                            <ul class="sub">
+                                <li><a href="">전체보기</a></li>
+                                <li><a href="">밀키트/간편식</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav">생활/주방<i></i></a>
+                            <ul class="sub">
+                                <li><a href="">전체보기</a></li>
+                                <li><a href="">생활용품</a></li>
+                                <li><a href="">주방용품</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav">귀뚜라미 굿즈<i></i></a>
+                            <ul class="sub">
+                                <li><a href="">전체보기</a></li>
+                                <li><a href="">컵/머그컵</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="group-brand">
+                    <div class="inner">
+                        <h3>브랜드</h3>
+                        <div class="link-brand">
+                            <a href="">
+                                <img src="./assets/img/001_cateImg_brand.png" alt>
+                                <span>귀뚜라미</span>
+                            </a>
+                            <a href="">
+                                <img src="./assets/img/002_cateImg_brand.jpeg" alt>
+                                <span>귀뚜라미</span>
+                            </a>
+                        </div>
+                    </div>
+                    <ul class="brand-list">
+                        <li class="best"><a href=""><i></i>베스트</a></li>
+                        <li class="sale"><a href=""><i></i>타임세일</a></li>
+                        <li class="new"><a href=""><i></i>신제품</a></li>
+                        <li class="center"><a href=""><i></i>고객센터</a></li>
+                    </ul>
+                </div>
+                <div class="group-product">
+                    <h3>최근 본 상품</h3>
+                    <div class="product-inner swiper">
+                        <ul class="swiper-wrapper">
+                            <li class="swiper-slide">
+                                <a href="">
+                                    <img src="./assets/img/1000000063_main_086.png" alt>
+                                    <p>24년형 블루투스 카본매트 온돌 KMF ...</p>
+                                    <span>451,000원</span>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="">
+                                    <img src="./assets/img/1000000009_main_04.png" alt>
+                                    <p>블루투스 카본매트 KDM-98</p>
+                                    <span>429,000원</span>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="">
+                                    <img src="./assets/img/1000000057_main_067.png" alt>
+                                    <p>24년형 카본매트 온돌 KMA 시리즈 (...</p>
+                                    <span>429,000원</span>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="">
+                                    <img src="./assets/img/1000000038_add3_065.png" alt>
+                                    <p>거꾸로 NEW 콘덴싱 L10 보일러</p>
+                                    <span>1,188,000원</span>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="">
+                                    <img src="./assets/img/slidemenu-img.png" alt>
+                                    <p>카본매트 온돌 KMC 시리즈</p>
+                                    <span>396,000원</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="group-bottom">
+                    <ul>
+                        <li><a href=""><img src="./assets/img/ico_community01.png" alt>이벤트</a></li>
+                        <li><a href=""><img src="./assets/img/ico_community02.png" alt>고객후기</a></li>
+                        <li><a href=""><img src="./assets/img/ico_community03.png" alt>1:1문의</a></li>
+                        <li><a href=""><img src="./assets/img/ico_community04.png" alt>귀뚜라미 홈페이지</a></li>
+                    </ul>
+                </div>
+            </section>
+        </header>
+        <main class="main">
+            <section class="sc-visual">
+                <h2 class="blind">메인슬라이드</h2>
+                <div class="swiper visual-swiper">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <a href="">
+                                <img src="./assets/img/banner1.png" alt="가치있는 모두를 위한 귀뚜라미몰 OPEN">
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="">
+                                <img src="./assets/img/banner2.png" alt="에코 모드를 통해 에너지 절감 효과 귀뚜라미 카본매트 Ondol KMF 시리즈">
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="">
+                                <img src="./assets/img/banner3.png" alt="더 강력해진 기능과 편의성 귀뚜라미 카본매트 Ondol KMA 시리즈">
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="">
+                                <img src="./assets/img/banner4.png" alt="리모컨 형 스마트 듀얼 컨트롤러 귀뚜라미 카본매트 Ondol KDM-98 시리즈">
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="">
+                                <img src="./assets/img/banner5.png" alt="업계 최초 일체형 컨트롤 귀뚜라미 카본매트 Ondol KMC 시리즈">
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="">
+                                <img src="./assets/img/banner6.png" alt="단호박 스프 단독 구성에 사은품까지 닥터로빈X귀뚜라미몰 오픈 이벤트">
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="">
+                                <img src="./assets/img/banner7.png" alt="첨단 법랑 코팅 기술로 만든 저장식 전기온수기">
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="">
+                                <img src="./assets/img/banner8.png" alt="자연까지 생각한 보일러 거꾸로 ECO 콘덴싱 E11">
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="">
+                                <img src="./assets/img/banner9.png" alt="환경부 인증 보일러 트윈알파 ECO E10">
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="fraction-wrap">
+                        <div class="fraction"></div>
+                    </div>
+                </div>
+            </section>
+            <aside class="event">
+                <span class="blind">이벤트슬라이드배너</span>
+                <div class="event-inner swiper">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <a href=""><p>귀뚜라미몰 추석연휴 배송안내</p></a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href=""><p>귀뚜라미몰 여름휴가 배송안내</p></a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href=""><p>23년 가정용 친환경콘덴싱보일러 10만원 설치...</p></a>
+                        </li>
+                    </ul>
+                    <div class="event-fraction-wrap">
+                        <div class="event-fraction"></div>
+                    </div>
+                </div>
+            </aside>
+            <section class="sc-icshortcut">
+                <h2 class="blind">바로가기</h2>
+                <ul>
+                    <li><a href="" class="best">베스트</a></li>
+                    <li><a href="" class="seasonal-appliances">계절가전</a></li>
+                    <li><a href="" class="house-appliances">생활가전</a></li>
+                    <li><a href="" class="camping">캠핑</a></li>
+                    <li><a href="" class="food">푸드</a></li>
+                    <li><a href="" class="sale">타임세일</a></li>
+                </ul>
+            </section>
+            <section class="sc-best sc-inner">
+                <h2><a href="">베스트상품</a></h2>
+                <ul class="inner-list">
+                    <li class="inner-item">
+                        <a href="" class="top-box">
+                            <img src="./assets/img/1000000063_main_086.png" alt>
+                            <p>24년형 블루투스 카본매트 온돌 KMF 시리즈</p>
+                            <del class="top-text">497,000원</del>
+                            <span class="price"><em>9%</em>451,000원</span>
+                            <span class="new"><img src="./assets/img/ico_new.png" alt="new"></span>
+                        </a>
+                        <div class="bottom-box">
+                            <button class="cart" href=""><span class="blind">장바구니담기</span></button>
+                            <button class="steamingit" href=""><span class="blind">찜하기</span></button>
+                        </div>
+                    </li>
+                    <li class="inner-item">
+                        <a href="" class="top-box">
+                            <img src="./assets/img/1000000057_main_067.png" alt>
+                            <p>24년형 카본매트 온돌 KMA 시리즈 (코퍼/실버)</p>
+                            <del class="top-text">477,000</del>
+                            <span class="price"><em>10%</em>429,000원</span>
+                            <span class="new"><img src="./assets/img/ico_new.png" alt="new"></span>
+                        </a>
+                        <div class="bottom-box">
+                            <button class="cart" href=""><span class="blind">장바구니담기</span></button>
+                            <button class="steamingit" href=""><span class="blind">찜하기</span></button>
+                        </div>
+                    </li>
+                    <li class="inner-item">
+                        <a href="" class="top-box">
+                            <img src="./assets/img/1000000009_main_04.png" alt>
+                            <p>블루투스 카본매트 KDM-98</p>
+                            <del class="top-text">477,000원</del>
+                            <span class="price"><em>10%</em>429,000원</span>
+                            <span class="recommendation"><img src="./assets/img/ico_rec.png" alt="추천"></span>
+                        </a>
+                        <div class="bottom-box">
+                            <button class="cart" href=""><span class="blind">장바구니담기</span></button>
+                            <button class="steamingit" href=""><span class="blind">찜하기</span></button>
+                        </div>
+                    </li>
+                    <li class="inner-item">
+                        <a href="" class="top-box">
+                            <img src="./assets/img/1000000038_add3_065.png" alt>
+                            <p>거꾸로 NEW 콘덴싱 L10 보일러</p>
+                            <span class="price">1,188,000원</span>
+                        </a>
+                        <div class="bottom-box">
+                            <button class="cart" href=""><span class="blind">장바구니담기</span></button>
+                            <button class="steamingit" href=""><span class="blind">찜하기</span></button>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <section class="sc-newproduct sc-inner">
+                <h2><a href="">신상품</a></h2>
+                <ul class="inner-list">
+                    <li class="inner-item">
+                        <a href="" class="top-box">
+                            <div class="img-wrap">
+                                <img src="./assets/img/1000000063_add3_017.png" alt>
+                                <div class="new_badge">NEW</div>
+                            </div>
+                            <p>24년형 블루투스 카본매트 온돌 KMF 시리즈</p>
+                            <del class="top-text">497,000원</del>
+                            <span class="price"><em>9%</em>451,000원</span>
+                        </a>
+                        <div class="bottom-box">
+                            <a class="cart" href=""><span class="blind">장바구니담기</span></a>
+                            <a class="steamingit" href=""><span class="blind">찜하기</span></a>
+                        </div>
+                    </li>
+                    <li class="inner-item">
+                        <a href="" class="top-box">
+                            <div class="img-wrap">
+                                <img src="./assets/img/1000000057_add3_04.png" alt>
+                                <div class="new_badge">NEW</div>
+                            </div>
+                            <p>24년형 카본매트 온돌 KMA 시리즈 (코퍼/실버)</p>
+                            <del class="top-text">477,000</del>
+                            <span class="price"><em>10%</em>429,000원</span>
+                        </a>
+                        <div class="bottom-box">
+                            <button class="cart" href=""><span class="blind">장바구니담기</span></button>
+                            <button class="steamingit" href=""><span class="blind">찜하기</span></button>
+                        </div>
+                    </li>
+                    <li class="inner-item">
+                        <a href="" class="top-box">
+                            <div class="img-wrap">
+                                <img src="./assets/img/dd.png" alt>
+                                <div class="new_badge">NEW</div>
+                            </div>
+                            <p>카본매트 온돌 KMC 시리즈</p>
+                            <del class="top-text">437,000원</del>
+                            <span class="price"><em>9%</em>396,000원</span>
+                        </a>
+                        <div class="bottom-box">
+                            <button class="cart" href=""><span class="blind">장바구니담기</span></button>
+                            <button class="steamingit" href=""><span class="blind">찜하기</span></button>
+                        </div>
+                    </li>
+                    <li class="inner-item">
+                        <a href="" class="top-box">
+                            <div class="img-wrap">
+                                <img src="./assets/img/1000000009_add3_042.png" alt>
+                                <div class="new_badge">NEW</div>
+                            </div>
+                            <p>블루투스 카본매트 KDM-98</p>
+                            <del class="top-text">477,000원</del>
+                            <span class="price"><em>10%</em>429,000원</span>
+                        </a>
+                        <div class="bottom-box">
+                            <button class="cart" href=""><span class="blind">장바구니담기</span></button>
+                            <button class="steamingit" href=""><span class="blind">찜하기</span></button>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <section class="sc-keywords sc-inner">
+                <h2><a href="">급상승 키워드</a></h2>
+                <div class="keywords-inner">
+                    <div class="keywords-tab on" data-tab="#tab1">
+                        <button data-type="카본매트">귀뚜라미 카본매트</button>
+                    </div>
+                    <div id="tab1" class="keywords-cont on swiper">
+                        <ul class="swiper-wrapper">
+                        </ul>
+                    </div>
+                    <div class="keywords-tab" data-tab="#tab2" >
+                        <button data-type="밀키트">탁터로빈 밀키트</button>
+                    </div>
+                    <div id="tab2" class="keywords-cont swiper">
+                        <ul class="swiper-wrapper ">
+                        </ul>
+                    </div>
+                    <div class="keywords-tab" data-tab="#tab3">
+                        <button data-type="전기온수기">귀뚜라미 법랑 전기온수기</button>
+                    </div>
+                    <div id="tab3" class="keywords-cont swiper">
+                        <ul class="swiper-wrapper">
+                        </ul>
+                    </div>
+                    <div class="keywords-tab" data-tab="#tab4">
+                        <button data-type="보일러">귀뚜라미 거꾸로 콘덴싱보일러</button>
+                    </div>
+                    <div id="tab4" class="keywords-cont swiper">
+                        <ul class="swiper-wrapper">
+                        </ul>
+                    </div>
+                    <div class="keywords-tab line" data-tab="#tab5">
+                        <button data-type="캠핑매트">귀뚜라미 캠핑매트</button>
+                    </div>
+                    <div id="tab5" class="keywords-cont swiper">
+                        <ul class="swiper-wrapper">
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="sc-recommendation sc-inner">
+                <h2><a href="">추천상품</a></h2>
+                <div class="inner">
+                    <div class="swiper recommendation-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="">
+                                    <div class="img-wrap">
+                                        <img src="./assets/img/1000000053_add3_016.png" alt>
+                                        <img class="badge" src="./assets/img/ico_rec_badge.png" alt="추천">
+                                    </div>
+                                    <div class="bottom-text">
+                                        <strong>카본매트 온돌 KDM 87N 시리즈</strong>
+                                        <p>라돈, 유해물질 불검출로 안심하고 사용 할 수 있는 귀뚜라미 카본매트</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="">
+                                    <div class="img-wrap">
+                                        <img src="./assets/img/dd.png" alt>
+                                        <img class="badge" src="./assets/img/ico_rec_badge.png" alt="추천">
+                                    </div>
+                                    <div class="bottom-text">
+                                        <strong>카본매트 온돌 KMC 시리즈</strong>
+                                        <p>2024년 UPGRADE! 가스비·누수·유해물질 걱정없는 귀뚜라미 3세대 카본매트</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="">
+                                    <div class="img-wrap">
+                                        <img src="./assets/img/adfs.png" alt>
+                                        <img class="badge" src="./assets/img/ico_rec_badge.png" alt="추천">
+                                    </div>
+                                    <div class="bottom-text">
+                                        <strong>[판매예정] 트윈알파 ECO E10 가스보일러</strong>
+                                        <p>비대기권역에도 설치 가능한 환경부 인증 보일러</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="">
+                                    <div class="img-wrap">
+                                        <img src="./assets/img/1000000069_add3_045.png" alt>
+                                        <img class="badge" src="./assets/img/ico_rec_badge.png" alt="추천">
+                                    </div>
+                                    <div class="bottom-text">
+                                        <strong>[귀뚜라미X한국도자기] 캐릭터 머그컵</strong>
+                                        <p>귀뚜라미 마스코트 뚜람이&뚜림이가 그려진 본차이나 머그컵</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="">
+                                    <div class="img-wrap">
+                                        <img src="./assets/img/1000000059_add3_049.png" alt>
+                                        <img class="badge" src="./assets/img/ico_rec_badge.png" alt="추천">
+                                    </div>
+                                    <div class="bottom-text">
+                                        <strong>[그랜드오픈 프로모션] 닥터로빈 밀키트 (단호박 스프 1 + 모닝빵 1 SET)</strong>
+                                        <p>닥터로빈의 시그니처 메뉴를 집에서 간편하게 즐겨보세요!</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="">
+                                    <div class="img-wrap">
+                                        <img src="./assets/img/1000000012_add3_017.png" alt>
+                                        <img class="badge" src="./assets/img/ico_rec_badge.png" alt="추천">
+                                    </div>
+                                    <div class="bottom-text">
+                                        <strong>캠핑매트 KDM-991 (싱글)</strong>
+                                        <p>가볍고 편한 휴대성으로 아웃도어 라이프를 더욱 즐겁게!</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <aside class="ad">
+                <img src="./assets/img/dcdd836e812cd5e81f365ebd23e36c1b_79167.png" alt="건강한 레스토랑 닥터로빈 입점 귀뚜라미몰에서 만나는 고품격 밀키트">
+            </aside>
+            <section class="sc-bestreview swiper">
+                <h2>베스트리뷰</h2>
+                <div class="bestreview-inner bestreview-swiper">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <img src="./assets/img/main_review01.png" alt>
+                            <div class="text-wrap">
+                                <div class="group-text">
+                                    <strong>하루 8시간씩 매일 사용해도 1200원</strong>
+                                    <span class="writer">**hine75님</span>
+                                    <p>유해전자파 안정성 EMF 인증까지 받은 제품이기 때문에 걱정하지 않으셔도 되고, 온수매트 대비 75% 이상 전기를 절약할 수 있다는 점도 완전 Good~...</p>
+                                </div>
+                                <div class="link-area">
+                                    <a href=""><img src="./assets/img/review_bottom01.png" alt></a>
+                                    <div class="right-box">
+                                        <img src="./assets/img/review_star_new.png" alt="별다섯개">
+                                        <span class="top">귀뚜라미</span>
+                                        <span class="bottom">23년형 카본매트 KDM-98</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide">
+                            <img src="./assets/img/main_review02.png" alt>
+                            <div class="text-wrap">
+                                <div class="group-text">
+                                    <strong>물관리 필요 없고 보관도 쉬워요. </strong>
+                                    <span class="writer">**ftfood님</span>
+                                    <p>작년까지 쓰던 온수매트는 물관리가 굉장히 귀찮더라고요? 귀뚜라미 카본매트는 물관리 필요 없고 카본열선 80만 회 굽힘 테스트를 완료해서 휴대와 이동도 손쉽게 가능해요...</p>
+                                </div>
+                                <div class="link-area">
+                                    <a href=""><img src="./assets/img/review_bottom02.png" alt></a>
+                                    <div class="right-box">
+                                        <img src="./assets/img/review_star_new.png" alt="별다섯개">
+                                        <span class="top">귀뚜라미</span>
+                                        <span class="bottom">23년형 카본매트 KDM-96</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide">
+                            <img src="./assets/img/main_review03.png" alt>
+                            <div class="text-wrap">
+                                <div class="group-text">
+                                    <strong>보일러 안 켜고 거실에서도 따뜻하게</strong>
+                                    <span class="writer">**cuya21님</span>
+                                    <p>넓은 거실에 따숩게 앉아서 TV도 보고 드라마도 보고~ 그러다가 자연스럽게 누우시고 찜질모드로 온도를 높여드리면 좋아하시더라고요...</p>
+                                </div>
+                                <div class="link-area">
+                                    <a href=""><img src="./assets/img/review_bottom03.png" alt></a>
+                                    <div class="right-box">
+                                        <img src="./assets/img/review_star_new.png" alt="별다섯개">
+                                        <span class="top">귀뚜라미</span>
+                                        <span class="bottom">23년형 카본매트 KDM-95</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="gosee">
+                    <a href="">난방매트 보러가기</a>
+                </div>
+            </section>
+            <section class="sc-notice">
+                <h2>NOTICE</h2>
+                <ul>
+                    <li>
+                        <a href="">
+                            귀뚜라미몰 추석연휴 배송안내
+                            <span class="date">2023-09-15 14:15:59</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            귀뚜라미몰 여름휴가 배송안내
+                            <span class="date">2023-07-27 14:16:41</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            23년 가정용 친환경콘덴싱보일러 10만원 설치...
+                            <span class="date">2023-07-11 13:17:45</span>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer-inner">
+                <div class="group-top">
+                    <span>고객센터</span>
+                    <a href="">02-2620-5306</a>
+                    <p class="operatinghours">
+                        OPEN AM 10:00 - PM 17:00<br>
+                        LUNCH PM 12:00 - PM 13:00<br>
+                        SAT, SUN, HOLIDAY OFF.
+                    </p>
+                    <div class="link-area">
+                        <a href="" class="counseling">1:1 상담</a>
+                        <a href="" class="cuestion">자주 묻는 질문</a>
+                    </div>
+                </div>
+                    <p class="info">
+                        귀뚜라미냉난방기술연구소 대표이사 : 김학수<br>
+                        서울특별시 강서구 마곡중앙로 86 귀뚜라미냉난방기술연구소<br>
+                        사업자등록번호 : 364-85-01012 통신판매업 신고번호 : 2020-서울강서-3650<br>
+                        대표번호 : 02-2620-5306 이메일 : ecommerce@krb.co.kr<br>
+                        호스팅제공 : 엔에이치엔커머스(주)
+                    </p>
+                    <p class="copyright">copyright. 2023. <span>kituramimall.com.</span> All rights reserved.</p>
+                    <ul class="corp-list">
+                        <li><a href="">회사소개</a></li>
+                        <li><a href="">이용약관</a></li>
+                        <li><a href="">개인정보처리방침</a></li>
+                        <li><a href="">이용안내</a></li>
+                        <li><a href="">입점안내</a></li>
+                        <li><a href="">임직원인증</a></li>
+                    </ul>
+            </div>
+        </footer>
+    <button class="btn-top"><span class="blind">상단이동버튼</span></button>
+    </div>
+</body>
+</html>

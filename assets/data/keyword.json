@@ -1,0 +1,195 @@
+
+{
+    "items":[
+        {   
+            "id":0,
+            "thumb":"./assets/img/1000000063_add3_017.png",
+            "productname":"24년형 블루투스 카본매트 온돌 KMF 시리즈",
+            "price":{
+                "ori":"497,000",
+                "curr":"451,000",
+                "sale":"9%"
+            },
+            "종류":"카본매트"
+        },
+        {   
+            "id":1,
+            "thumb":"./assets/img/1000000057_add3_04.png",
+            "productname":"24년형 카본매트 온돌 KMA 시리즈 (코퍼/실버)",
+            "price":{
+                "ori":477000,
+                "curr":429000,
+                "sale":"10%"
+            },
+            "종류":"카본매트"
+        },
+        {   
+            "id":2,
+            "thumb":"./assets/img/1000000055_add3_015.png",
+            "productname":"카본매트 온돌 KMC 시리즈",
+            "price":{
+                "ori":"437,000",
+                "curr":"396,000",
+                "sale":"9%"
+            },
+            "종류":"카본매트"
+        },
+        {   
+            "id":3,
+            "thumb":"./assets/img/1000000053_add3_016.png",
+            "productname":"카본매트 온돌 KDM 87N 시리즈",
+            "price":{
+                "ori":"437,000",
+                "curr":"396,000",
+                "sale":"9%"
+            },
+            "종류":"카본매트"
+        },
+        {   
+            "id":4,
+            "thumb":"./assets/img/1000000009_add3_042.png",
+            "productname":"블루투스 카본매트 KDM-98",
+            "price":{
+                "ori":"477,000",
+                "curr":"429,000",
+                "sale":"10%"
+            },
+            "종류":"카본매트"
+        },
+        {   
+            "id":5,
+            "thumb":"./assets/img/1000000006_add3_018.png",
+            "productname":"카본매트 KDM-92",
+            "price":{
+                "ori":"417,000",
+                "curr":"374,000",
+                "sale":"10%"
+            },
+            "종류":"카본매트"
+        },
+        {   
+            "id":6,
+            "thumb":"./assets/img/1000000008_add3_044.png",
+            "productname":"블루투스 카본매트 KDM-96",
+            "price":{
+                "ori":"437,000",
+                "curr":"396,000",
+                "sale":"9%"
+            },
+            "종류":"카본매트"
+        },
+        {   
+            "id":7,
+            "thumb":"./assets/img/1000000059_add3_049.png",
+            "productname":"[그랜드오픈 프로모션] 닥터로빈 밀키트 (단호박 스프 1 + 모닝빵 1 SET)",
+            "price":{
+                "ori":"16,000",
+                "curr":"13,500",
+                "sale":"16%"
+            },
+            "종류":"밀키트"
+        },
+        {   
+            "id":8,
+            "thumb":"./assets/img/1000000050_add3_093.jpg",
+            "productname":"닥터로빈 단호박 크림 스프 밀키트 (2인분)",
+            "price":{
+                "ori":null,
+                "curr":"10,500",
+                "sale":null
+            },
+            "종류":"밀키트"
+        },
+        {   
+            "id":9,
+            "thumb":"./assets/img/1000000051_add3_016.jpg",
+            "productname":"닥터로빈 스테비아 모닝빵 비건인증 건강빵 8개입",
+            "price":{
+                "ori":null,
+                "curr":"5,500",
+                "sale":null
+            },
+            "종류":"밀키트"
+        },
+        {   
+            "id":10,
+            "thumb":"./assets/img/dasfd.png",
+            "productname":"저장식 법랑 전기온수기",
+            "price":{
+                "ori":null,
+                "curr":"275,000",
+                "sale":null
+            },
+            "종류":"전기온수기"
+        },
+        {   
+            "id":11,
+            "thumb":"./assets/img/1000000025_add3_067.png",
+            "productname":"저장식 전기온수기 (법랑-스탠드형)",
+            "price":{
+                "ori":null,
+                "curr":"275,000",
+                "sale":null
+            },
+            "종류":"전기온수기"
+        },
+        {   
+            "id":12,
+            "thumb":"./assets/img/1000000024_add3_019.png",
+            "productname":"저장식 전기온수기 (법랑-벽걸이형)",
+            "price":{
+                "ori":null,
+                "curr":"275,000",
+                "sale":null
+            },
+            "종류":"전기온수기"
+        },
+        {   
+            "id":13,
+            "thumb":"./assets/img/1000000038_main_093.png",
+            "productname":"거꾸로 NEW 콘덴싱 L10 보일러",
+            "price":{
+                "ori":null,
+                "curr":"1,188,000",
+                "sale":null
+            },
+            "종류":"보일러"
+        },
+        {   
+            "id":14,
+            "thumb":"./assets/img/1000000039_add3_070.png",
+            "productname":"거꾸로 콘덴싱 프리미엄 가스보일러",
+            "price":{
+                "ori":null,
+                "curr":"3,850,000",
+                "sale":null
+            },
+            "종류":"보일러"
+        },
+        {   
+            "id":15,
+            "thumb":"./assets/img/1000000011_add3_032.png",
+            "productname":"캠핑매트 KDM-991 (싱글)",
+            "price":{
+                "ori":"418,000",
+                "curr":"457,000",
+                "sale":"9%"
+            },
+            "종류":"캠핑매트"
+        },
+        {   
+            "id":16,
+            "thumb":"./assets/img/1000000012_add3_017.png",
+            "productname":"캠핑매트 KDM-991M (확장형)",
+            "price":{
+                "ori":"297,000",
+                "curr":"264,000",
+                "sale":"11%"
+            },
+            "종류":"캠핑매트"
+        }
+        
+    ]
+    
+}
+

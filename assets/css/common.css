@@ -1,0 +1,105 @@
+.blind{
+    position: absolute;
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
+    clip: rect(0,0,0,0);
+    margin: -1px;
+}
+
+/* 위로가기버튼 */
+.btn-top{
+    opacity: 0;
+    position: fixed;
+    z-index: 20;
+    right: 11px;
+    bottom: -50px;
+    width: 42px;
+    height: 42px;
+    background: url(../img/top-go.png) no-repeat 0 0;
+    background-size: 42px 42px;
+    transition: 1s ease-in-out;
+}
+.btn-top.on{
+    opacity: 1;
+    bottom: 85px;
+}
+
+/* 확장메뉴 */
+.hidden{ overflow: hidden; }
+.dimmed{
+    visibility: hidden;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    z-index: 999;
+    transition: 0.3s 0.2s;
+}
+.hidden .dimmed{
+    opacity: 1;
+    visibility: visible;
+    transition: 0.3s;
+}
+
+/* sc-inner */
+.sc-inner{ padding: 0 15px; }
+.sc-inner h2{
+    font-size: 22px;
+    padding: 0 20px 0 0;
+    font-weight: bold;
+    padding-left: 45px;
+}
+.sc-inner .inner-list{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.sc-inner .inner-item{ 
+    height: 100%;
+    padding: 15px 5px 15px 5px;
+}
+.sc-inner .inner-item .top-box{
+    display: flex;
+    flex-direction: column;
+}
+.sc-inner .top-box>img{
+    border-radius: 10px;
+    padding-bottom: 12px;
+}
+.sc-inner .top-box p{
+    font-size: 13px;
+    color: #000;
+    padding-bottom: 10px;
+}
+.sc-inner .top-text{
+    color: #aaa;
+    text-decoration: line-through;
+}
+.sc-inner .price{
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+}
+.sc-inner .price em{
+    font-size: 14px;
+    font-weight: bold;
+    color: #0071be;
+    padding-right: 4px;
+}
+.sc-inner .inner-item .bottom-box{
+    display: flex;
+    gap: 9px;
+}
+.sc-inner .bottom-box .cart{
+    width: 28px;
+    height: 32px;
+    background: url(../img/ico_goods_cart.png) no-repeat center center/auto 17px;
+}
+.sc-inner .bottom-box .steamingit{
+    width: 28px;
+    height: 32px;
+    background: url(../img/ico_goods_wish.png) no-repeat center center/17px 16px;
+}
