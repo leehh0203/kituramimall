@@ -102,10 +102,19 @@ const swiper2 = new Swiper('.event-inner', {
 
 //sc-keywords
 //탭
-$('.sc-keywords button').click(function(){
-    type=$(this).data('type');
+// $('.sc-keywords button').click(function(){
+//     type=$(this).data('type');
+//     typeList(type);
+// })
+
+$('.keywords-tab').click(function(){
+    tabName=$(this).data('tab');
+    $(tabName).addClass('on').siblings().removeClass('on')
+
+    type=$(this).find('button').data('type');
     typeList(type);
 })
+
 
 //데이터
 typeList('카본매트')
@@ -116,7 +125,7 @@ function typeList(type){
         data=json.items;
 
         sortData = data.filter(function(parm){
-            return parm.종류 == type
+            return parm.kind == type
         })
 
         let html =``;
