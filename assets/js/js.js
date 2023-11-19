@@ -1,11 +1,7 @@
-
-
-
 //스카이배너
 $('.skybanner button').click(function(){
     $('.skybanner').addClass('on')
 })
-
 
 
 //위로가기 버튼
@@ -23,7 +19,6 @@ $('.btn-top').click(function(){
 })
 
 
-
 //확장메뉴
 //메뉴슬라이드
 $('.open').click(function(){
@@ -33,30 +28,29 @@ $('.open').click(function(){
 $('.btn-close').click(function(){
     $('.slide-menu-fix').removeClass('on')
     $('body').removeClass('hidden')
-    $('.nav').removeClass('on').siblings('.sub').stop().slideUp()
+    closeMenu();
 })
 //아코디언메뉴
 $('.nav').click(function(e){
     e.preventDefault();
-
     if ($(this).hasClass('on')) {
-        $('.nav').removeClass('on').siblings('.sub').stop().slideUp()
-        
+        closeMenu();
     } else {
-        $('.nav').removeClass('on').siblings('.sub').stop().slideUp()
+        closeMenu();
         $(this).addClass('on').siblings('.sub').stop().slideDown()
-
     }
-
 })
-//슬라이드
+
+function closeMenu(){
+    $('.nav').removeClass('on').siblings('.sub').stop().slideUp()
+}
+//슬라이드메뉴안 스와이퍼
 const swiper65 = new Swiper('.product-inner', {
     spaceBetween: 10,
     slidesPerView: 'auto',
     with: 'auto',
     
 });
-
 
 
 //sc-visual
@@ -66,17 +60,17 @@ const swiper = new Swiper('.visual-swiper', {
         el: ".fraction",
         type: "custom",
         renderCustom: function (swiper, current, total) {
-            currentVal = (current < 10)?`0${current}`:current;
-            total = (total < 10)? `0${total}`:total;
+            currentVal = (current < 10) ? `0${current}` : current; //현재 슬라이드 인덱스
+            total = (total < 10)? `0${total}`:total; //전체 슬라이드 
             return `<span class="curr">${currentVal}</span>
                     /
-                    <span class="total">${total}</span>`;
-                   
+                    <span class="total">${total}</span>`;        
           }
         },
         autoplay: {
             delay: 5000,
             disableOnInteraction: false,
+            //컨트롤 후에 오토플레이 실행하도록
         },
         loop : true,
         speed : 1000,   
@@ -102,11 +96,6 @@ const swiper2 = new Swiper('.event-inner', {
 
 //sc-keywords
 //탭
-// $('.sc-keywords button').click(function(){
-//     type=$(this).data('type');
-//     typeList(type);
-// })
-
 $('.keywords-tab').click(function(){
     tabName=$(this).data('tab');
     $(tabName).addClass('on').siblings().removeClass('on')
@@ -190,7 +179,7 @@ const swiper4 = new Swiper('.recommendation-swiper', {
     slidesPerView: 'auto',
     loop:true,
     // freeMode:true,
-    centeredSlides: true,
+    centeredSlides: true, //슬라이드 가운데 정렬 옵션
 });
 
 
